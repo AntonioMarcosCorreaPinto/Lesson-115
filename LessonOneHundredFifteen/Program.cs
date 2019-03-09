@@ -24,7 +24,7 @@ namespace LessonOneHundredFifteen
 
             Console.WriteLine(txt);
 
-            // It covering type string to OrderStatus
+            // It coverring type string to OrderStatus
 
             OrderStatus os = Enum.Parse<OrderStatus>("Delivered"); 
             // It have the same value that exist at the enum "OrderStatus"
